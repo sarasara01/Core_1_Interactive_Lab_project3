@@ -1,0 +1,211 @@
+h1 {text-align: center;
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    letter-spacing: -11px;
+    color: aliceblue;
+    border-top: 5px solid ;
+    border-bottom: 5px solid;
+}
+
+#lowerheading {
+    text-align: center;
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: -11px;
+    color: aliceblue;
+    border-top: 5px solid ;
+    border-bottom: 5px solid;
+    margin-top: 800px;
+}
+
+#upperheading {
+    text-align: center;
+    transform: scaleY(-1);
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: -11px;
+    color: aliceblue;
+    border-top: 5px solid ;
+    border-bottom: 5px solid;
+    margin-top: 10px
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 150px;
+    appearance: none;
+    background: rgba(240, 248, 255, 0.401);
+    border: none;
+    padding: 0;
+    font: inherit;
+    border-radius: 80px;
+    margin-top: 125px;
+}
+
+a {text-align: center;
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -11px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p {text-align: center;
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -5px;
+    color: aliceblue;
+}
+
+p:hover {color: rgb(63, 85, 54);}
+
+audio {
+    display: block;
+    position: absolute;
+    z-index: 7;
+    width: 300px;
+    margin-top: 250px;
+    margin-left: 500px;
+    background-color: #f1f3f4;
+    border-radius: 80px;
+}
+audio:hover {
+  transform: scale(1.04);
+}
+audio::-webkit-media-controls-panel {
+  background-color: aliceblue;
+}
+
+body {
+    background-color: rgb(83, 114, 71);
+}
+
+
+#flowerbush1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: -150px;
+}
+
+#flowerbush2 {
+    position: absolute;
+    z-index: 1;
+    transform: scaleX(-1);
+    margin-top: 550px;
+    margin-left: 5px;
+}
+
+#flowerbush3 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 1050px;
+}
+
+#birdbath1 {
+    position: absolute;
+    top: 400px;
+    left: 750px;
+    z-index: 2;
+}
+
+
+#tree1 {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+#tree1:hover {transform: scale(1.04);}
+
+#tree2 {
+    position: absolute;
+    z-index: 4;
+    transform: scaleX(-1);
+    top: 400px;
+    left: 75px;
+}
+
+#tree3 {
+    position: absolute;
+    z-index: 4;
+    top: 600px;
+    left: 625px;
+}
+#tree3:hover {transform: scale(1.04);}
+
+#chair1 {
+    position: absolute;
+    z-index: 6;
+    top: 575px;
+    left: 200px;
+}
+
+#butterfly1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+
+#butterfly2 {
+    position: absolute;
+    transform: scaleX(-1);
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+#miniflowers1 {
+    position: absolute;
+    z-index: 7;
+    margin-top: 100px;
+    margin-left: 375px;
+}
+
+#miniflowers2 {
+    transform: scaleX(-1);
+    position: absolute;
+    z-index: 7;
+    margin-top: 600px;
+    margin-left: 850px;
+}
+
+#miniflowers3 {
+    transform: scaleX(-1);
+    position: absolute;
+    z-index: 7;
+    margin-top: -175px;
+    margin-left: 850px;
+}
+
+#miniflowers4 {
+    transform: scaleX(-1);
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 300px;
+}
+
+#grass1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 500px;
+    margin-left: 650px;
+}
+#grass2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 225px;
+}
